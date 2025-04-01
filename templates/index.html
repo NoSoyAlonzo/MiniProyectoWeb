@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Registro</title>
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../static/estilo.css">
 </head>
 <body>
     <header>
@@ -35,7 +35,7 @@
 
         <!-- Panel 2: Tabla para mostrar datos -->
         <section class="panel">
-            <h2>Informacion del pokemon</h2>
+            <h2>Pokemones consultados</h2>
             <table id="tablaRegistros">
                 <thead>
                     <tr>
@@ -43,7 +43,6 @@
                         <th>Nombre</th>
                         <th>Habilidad</th>
                         <th>estadistica base</th>
-                        <th>Evolucion</th>
                        
                     </tr>
                 </thead>
@@ -53,8 +52,8 @@
             </table>
         </section>
 
-        <section class="panel">
-            <h1>ola</h1>
+        <section id="lastPokemon" class="panel">
+            <h1>Ultimo pokemon que consultaste: </h1>
         </section>
 
     </main>

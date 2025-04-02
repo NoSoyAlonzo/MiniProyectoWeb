@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to left, lightblue, rgb(101, 101, 101));
+    background-image: url("../static/imagenes/fondo_pokemon.jpg");
     color: #333;
     min-height: 100vh;
     display: flex;
